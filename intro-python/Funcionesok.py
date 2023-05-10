@@ -45,11 +45,17 @@
     
 def pairnumber (list):
     pairlist = []
+    oddList = []
+    
     for c in list:
         if c%2 == 0:
-            print(pairlist.append(c))
+            pairlist.append(c)
+        
+        else:
+            oddList.append(c)
+    print(pairlist)
+    print(oddList)
               
-
 pairnumber([4, 8, 9, 3, 10])  
 
 
