@@ -33,4 +33,5 @@
 # print(kathy.name)
 
 quesos = ['Cheddar', 'Edam', 'Gouda']
-'Edam' in quesos
+for queso in quesos:
+    print(queso)
