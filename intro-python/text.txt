@@ -1,0 +1,8 @@
+control de calidad (QA) Una persona o equipo enfocado 
+X-DSPAM-Confidence: 0.8475en asegurar la calidad
+en general de un producto. 
+X-DSPAM-Confidence: 0.8475 El Control de calidad (QA) es frecuentemente
+encargado de probar un software y encontrar posibles problemas antes de
+que el software sea lanzado X-DSPAM-Confidence: 0.8475.
+X-DSPAM-Confidence: 0.8475 pythónico Una técnica que funciona de forma elegante en Python. 
+Un carácter especial utilizado en archivos y cadenas para indicar el final de una línea.
