@@ -43,19 +43,64 @@
 # List([2, 4, 5, 6], 6)
         
     
-def pairnumber (list):
-    pairlist = []
-    oddList = []
+# def pairnumber (list):
+#     pairlist = []
+#     oddList = []
     
-    for c in list:
-        if c%2 == 0:
-            pairlist.append(c)
+#     for c in list:
+#         if c%2 == 0:
+#             pairlist.append(c)
         
-        else:
-            oddList.append(c)
-    print(pairlist)
-    print(oddList)
+#         else:
+#             oddList.append(c)
+#     print(pairlist)
+#     print(oddList)
               
-pairnumber([4, 8, 9, 3, 10])  
+# pairnumber([4, 8, 9, 3, 10])  
 
+
+
+
+# def work_check(work_hours):
+    
+#     current_max = 0
+#     employee_of_month = ''
+    
+#     for employee, hours in work_hours:
+#         if hours > current_max:
+#             current_max = hours
+#             employee_of_month = employee
+            
+#     return (employee_of_month, current_max)
+
+# employee, hours = work_check([('Kathy', 200), ('Teo', 400), ('Geri', 150)])
+# print(employee)
+
+from random import shuffle
+def shuffle_list (mylist):
+    shuffle(mylist)
+    return mylist
+list_shuffled = shuffle_list(['', 'o', ''])
+
+# print(list_shuffled)
+
+def user_guess ():
+    guess = ''
+    while guess not in ['0', '1', '2']:
+        guess = input('Select a position: 0, 1, o 2: ')
+        return int(guess)
+    
+theguess = user_guess()
+
+def check_guess(mylist, guess):
+    if mylist[guess] == 'o':
+        print('Correct')
+    else:
+        print('Wrong')
+        print(mylist)
+
+check_guess(list_shuffled, theguess)
+
+    
+        
 

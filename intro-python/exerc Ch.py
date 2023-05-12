@@ -32,6 +32,20 @@
 
 # print(kathy.name)
 
-quesos = ['Cheddar', 'Edam', 'Gouda']
-for queso in quesos:
-    print(queso)
+# quesos = ['Cheddar', 'Edam', 'Gouda']
+# for queso in quesos:
+#     print(queso)
+
+budget = float(input())
+price = input()
+expenses = 0
+while price != 'End':
+    product_price = int(price)
+    expenses += price
+    if expenses > budget:
+        print('You went in overdraft!')
+        break
+    price = input()
+print('You bought everything needed.')
+    
+    
